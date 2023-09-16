@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/habitaciones"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnHabitacion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Habitación 1"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnHabitacion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Habitación 2"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnHabitacion3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Habitación 3"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnHabitacion4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Habitación 4"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/txtTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="70°"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txtFireAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALERTA INCENDIO"
+        android:visibility="gone"
+        android:layout_marginTop="8dp"
+        android:textColor="#FF0000"
+        android:textSize="20sp"/>
+</LinearLayout>
